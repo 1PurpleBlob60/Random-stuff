@@ -6,3 +6,4 @@ for _ in range(5):
         time.sleep(0.15)
 
 print("\nDone!")
+#add counter
