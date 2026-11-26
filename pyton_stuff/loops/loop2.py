@@ -1,13 +1,5 @@
-'''import time
-
-word = input("Enter a word: ")
-letters = list(word)
-def print_letters():
-    for letter in letters:
-        print(f"{letter}", end='', flush=True)
-        time.sleep(0.5)
-    print("\nDone!")
-print_letters()
-'''
+import time
+import random
 import callableproceduralwriting as cpw
-cpw.procedural_print("fish")
+wordprint = input("Enter a word: ")
+cpw.procedural_print(wordprint, delay=0.1)
