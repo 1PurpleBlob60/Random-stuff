@@ -1,7 +1,4 @@
-import time as ti
-import random as ra
-from time import sleep as slp
+import callableproceduralwriting as cpw
+import time
 
-spinner = ["|", "/", "-", "\\"]
-
-print("Starting process")
+procedural_writing("fish", delay=0.1)
