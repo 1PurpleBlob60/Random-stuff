@@ -47,4 +47,4 @@ def run_and_translate(duration_seconds):
     print(f"Intput: {current_bits}")
     print(f"Output: {translated_text}")
 
-run_and_translate(20)
+run_and_translate(10)
